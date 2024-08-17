@@ -12,7 +12,7 @@ class AboutPage extends StatelessWidget {
         child: Stack(
           children: [
             Center(
-              child: Container(
+              child: SizedBox(
                 width: 1000, // Adjust width as needed
                 height: 600, // Adjust height as needed
                 child: Card(
@@ -43,7 +43,7 @@ class AboutPage extends StatelessWidget {
                                     child: CircleAvatar(
                                       radius: 120,
                                       backgroundImage:
-                                      AssetImage("assets/images/profile.jpg"),
+                                      AssetImage("assets/images/android.png"),
                                     ),
                                   ),
                                 ),
@@ -124,7 +124,11 @@ class AboutPage extends StatelessWidget {
                                 GradientButton(
                                   text: 'Download Resume',
                                   onPressed: () {
-                                    print('Gradient Button Pressed');
+
+
+
+
+
                                   },
                                 ),
                               ],

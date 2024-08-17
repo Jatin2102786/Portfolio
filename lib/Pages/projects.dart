@@ -89,7 +89,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
           child: Row(
             children: [
               Icon(icon, color: textColor, size: 40.0),
-              SizedBox(width: 8.0),
+              const SizedBox(width: 8.0),
               Expanded(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -129,7 +129,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
         width: double.infinity,
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [MyApp.primaryColor, MyApp.primaryColor],
+            colors: [MyApp.secondaryColor, MyApp.secondaryColor],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -164,7 +164,7 @@ class _ProjectsPageState extends State<ProjectsPage> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 20,)
+                    const SizedBox(height: 20,)
                     ,
                     Flexible(
                       child: SingleChildScrollView(

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jatin Mehmi — Mobile App Developer & Technical Trainer</title>
+  <meta name="description" content="Portfolio of Jatin Mehmi, a Mobile Application Developer and Technical Trainer with expertise in Kotlin, Flutter, Android SDK, and Firebase." />
+  <meta name="keywords" content="Jatin Mehmi, Android Developer, Kotlin, Flutter, Technical Trainer, Mobile Developer, O7 Solutions, Punjab" />
+  <meta property="og:title" content="Jatin Mehmi — Mobile App Developer & Trainer" />
+  <meta property="og:description" content="Gold Medalist B.Tech CSE (IoT) | Mobile App Developer & Technical Trainer at O7 Solutions." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- ====== NAV ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <span class="logo-bracket">&lt;</span>JM<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"      class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#experience" class="nav-link" id="nav-experience">Experience</a></li>
+        <li><a href="#skills"     class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#education"  class="nav-link" id="nav-education">Education</a></li>
+        <li><a href="#contact"    class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" id="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        <span class="title-greeting">Hey, I'm</span>
+        <span class="title-name">Jatin Mehmi</span>
+        <span class="title-role">
+          <span class="typed-text" id="typed-text"></span><span class="typed-cursor">|</span>
+        </span>
+      </h1>
+      <p class="hero-description" id="hero-description">
+        <strong>Mobile App Developer & Technical Trainer</strong> at O7 Solutions.<br/>
+        Building AI-powered Android &amp; Flutter apps · Mentoring the next generation of developers.
+      </p>
+      <div class="hero-meta" id="hero-meta">
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Jalandhar, Punjab
+        </span>
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.5 12a19.79 19.79 0 01-3-8.67A2 2 0 012.48 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.5a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          +91 7658848135
+        </span>
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          jatinmehmi583@gmail.com
+        </span>
+      </div>
+      <div class="hero-actions" id="hero-actions">
+        <a href="#experience" class="btn btn-primary" id="btn-experience">
+          View Experience
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://github.com/Jatin2102786" target="_blank" rel="noopener" class="btn btn-secondary" id="btn-github">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="1">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="39">0</span>
+          <span class="stat-label">GitHub Repos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="3">0</span>
+          <span class="stat-label">Roles Held</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num gold-num">🥇</span>
+          <span class="stat-label">Gold Medalist</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" id="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <div class="app-header">
+              <div class="app-status"></div>
+              <div class="app-icon-row">
+                <div class="app-circle c1"></div>
+                <div class="app-circle c2"></div>
+                <div class="app-circle c3"></div>
+              </div>
+            </div>
+            <div class="app-content">
+              <div class="app-card ac1">
+                <div class="app-card-dot"></div>
+                <div class="app-card-lines">
+                  <div class="line l1"></div>
+                  <div class="line l2"></div>
+                </div>
+              </div>
+              <div class="app-card ac2">
+                <div class="app-card-dot d2"></div>
+                <div class="app-card-lines">
+                  <div class="line l3"></div>
+                  <div class="line l4"></div>
+                </div>
+              </div>
+              <div class="app-chart">
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+                <div class="bar b4"></div>
+                <div class="bar b5"></div>
+              </div>
+            </div>
+            <div class="app-nav">
+              <div class="nav-dot nd-active"></div>
+              <div class="nav-dot"></div>
+              <div class="nav-dot"></div>
+            </div>
+          </div>
+        </div>
+        <div class="phone-glow"></div>
+      </div>
+      <div class="floating-badge fb1"><span>🤖</span> Android</div>
+      <div class="floating-badge fb2"><span>🦋</span> Flutter</div>
+      <div class="floating-badge fb3"><span>⚡</span> Kotlin</div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">Profile</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar-wrap" id="about-avatar">
+          <div class="avatar-ring ring-1"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-placeholder">
+            <div class="avatar-initials">JM</div>
+            <div class="avatar-glow"></div>
+          </div>
+          <div class="avatar-tech-tags">
+            <div class="tech-tag tt1">Kotlin</div>
+            <div class="tech-tag tt2">Flutter</div>
+            <div class="tech-tag tt3">Trainer</div>
+            <div class="tech-tag tt4">🥇 Gold</div>
+          </div>
+        </div>
+        <div class="about-text" id="about-text">
+          <p class="about-intro">
+            I'm a <strong>Technical Trainer and Mobile Application Developer</strong> with over one year of experience in software development and technical education.
+          </p>
+          <p>
+            I'm experienced in teaching <strong>Java, Android (Kotlin), Flutter, Data Structures, and Databases</strong> through practical, project-based learning. Passionate about mentoring students and developing strong programming and problem-solving skills.
+          </p>
+          <p>
+            Currently working at <strong>O7 Solutions</strong>, building scalable and AI-powered mobile apps and training the next generation of mobile developers.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item" id="hl-1">
+              <div class="hl-icon">🎓</div>
+              <div>
+                <strong>B.Tech CSE (IoT)</strong>
+                <span>Punjab Technical University, 2025</span>
+              </div>
+            </div>
+            <div class="highlight-item" id="hl-2">
+              <div class="hl-icon">🥇</div>
+              <div>
+                <strong>Gold Medalist</strong>
+                <span>Outstanding Academic Performance</span>
+              </div>
+            </div>
+            <div class="highlight-item" id="hl-3">
+              <div class="hl-icon">📍</div>
+              <div>
+                <strong>Jalandhar, Punjab</strong>
+                <span>Alipur, Jalandhar – 144022</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/jatin-mehmi-84bbab253/" target="_blank" rel="noopener" class="about-link" id="linkedin-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/Jatin2102786" target="_blank" rel="noopener" class="about-link" id="github-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="mailto:jatinmehmi583@gmail.com" class="about-link" id="email-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERIENCE ====== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline" id="timeline">
+
+        <!-- Role 1 — Current -->
+        <div class="timeline-item active-role" id="exp-1">
+          <div class="timeline-dot tl-dot-active"></div>
+          <div class="timeline-line"></div>
+          <div class="timeline-card">
+            <div class="tl-card-header">
+              <div class="tl-left">
+                <div class="tl-role-badge current-badge">Current Role</div>
+                <h3 class="tl-title">Mobile App Developer &amp; Trainer</h3>
+                <div class="tl-company">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                  O7 Solutions
+                </div>
+              </div>
+              <div class="tl-right">
+                <div class="tl-period">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  July 2025 – Present
+                </div>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Built scalable and <strong>AI-powered mobile apps</strong> using Kotlin and Flutter.</li>
+              <li>Trained students on <strong>mobile development</strong> and agile workflows.</li>
+              <li>Deployed and maintained <strong>Android apps on the Google Play Store</strong>.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">Kotlin</span>
+              <span class="tl-tag">Flutter</span>
+              <span class="tl-tag">AI Apps</span>
+              <span class="tl-tag">Play Store</span>
+              <span class="tl-tag">Training</span>
+              <span class="tl-tag">Agile</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="timeline-item" id="exp-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+          <div class="timeline-card">
+            <div class="tl-card-header">
+              <div class="tl-left">
+                <div class="tl-role-badge intern-badge">Internship</div>
+                <h3 class="tl-title">Mobile App Developer Intern</h3>
+                <div class="tl-company">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                  O7 Solutions
+                </div>
+              </div>
+              <div class="tl-right">
+                <div class="tl-period">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  January 2025 – June 2025
+                </div>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Developed <strong>native Kotlin utilities</strong> and custom canvas-based UI components.</li>
+              <li>Built <strong>real-time communication</strong> and Firebase authentication features.</li>
+              <li>Optimized <strong>file handling and high-resolution media export</strong>.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">Kotlin</span>
+              <span class="tl-tag">Canvas UI</span>
+              <span class="tl-tag">Firebase Auth</span>
+              <span class="tl-tag">Real-time</span>
+              <span class="tl-tag">Media Export</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="timeline-item" id="exp-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+          <div class="timeline-card">
+            <div class="tl-card-header">
+              <div class="tl-left">
+                <div class="tl-role-badge trainee-badge">Industrial Training</div>
+                <h3 class="tl-title">Android App Developer Trainee</h3>
+                <div class="tl-company">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                  O7 Services
+                </div>
+              </div>
+              <div class="tl-right">
+                <div class="tl-period">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  July 2023 – August 2023
+                </div>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Completed intensive industrial training focused on <strong>native Android fundamentals</strong>.</li>
+              <li>Mastered <strong>local data persistence and lifecycle management</strong> using Room Database.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tl-tag">Android SDK</span>
+              <span class="tl-tag">Room DB</span>
+              <span class="tl-tag">Lifecycle</span>
+              <span class="tl-tag">Java</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS ====== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Use</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skills-grid" id="skills-grid">
+
+        <div class="skill-category" id="skill-lang">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item" id="sk-kotlin">
+              <div class="skill-info"><span class="skill-name">Kotlin</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90" style="--target-width:90%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-dart">
+              <div class="skill-info"><span class="skill-name">Dart (Flutter)</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-flutter" data-width="80" style="--target-width:80%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-java">
+              <div class="skill-info"><span class="skill-name">Java</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-java" data-width="75" style="--target-width:75%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-cpp">
+              <div class="skill-info"><span class="skill-name">C++</span><span class="skill-pct">65%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-cpp" data-width="65" style="--target-width:65%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-mobile">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📱</div>
+            <h3>Mobile & Frameworks</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item" id="sk-android">
+              <div class="skill-info"><span class="skill-name">Android SDK</span><span class="skill-pct">88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88" style="--target-width:88%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-flutter">
+              <div class="skill-info"><span class="skill-name">Flutter</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-flutter" data-width="80" style="--target-width:80%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-jetpack">
+              <div class="skill-info"><span class="skill-name">Jetpack Compose</span><span class="skill-pct">78%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78" style="--target-width:78%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-studio">
+              <div class="skill-info"><span class="skill-name">Android Studio</span><span class="skill-pct">92%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92" style="--target-width:92%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-backend">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">☁️</div>
+            <h3>Database & Backend</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item" id="sk-firebase">
+              <div class="skill-info"><span class="skill-name">Firebase</span><span class="skill-pct">82%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-flutter" data-width="82" style="--target-width:82%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-room">
+              <div class="skill-info"><span class="skill-name">Room Database</span><span class="skill-pct">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85" style="--target-width:85%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-sqflite">
+              <div class="skill-info"><span class="skill-name">SQFlite Database</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill sf-flutter" data-width="75" style="--target-width:75%"></div></div>
+            </div>
+            <div class="skill-item" id="sk-api">
+              <div class="skill-info"><span class="skill-name">REST APIs</span><span class="skill-pct">83%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="83" style="--target-width:83%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-other">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🛠️</div>
+            <h3>Additional Skills</h3>
+          </div>
+          <div class="tech-pills">
+            <span class="tech-pill" id="pill-dsa">DSA</span>
+            <span class="tech-pill" id="pill-iot">IoT</span>
+            <span class="tech-pill" id="pill-git">Git &amp; GitHub</span>
+            <span class="tech-pill" id="pill-agile">Agile</span>
+            <span class="tech-pill" id="pill-canvas">Custom Canvas UI</span>
+            <span class="tech-pill" id="pill-playstore">Play Store Deploy</span>
+            <span class="tech-pill" id="pill-realtime">Real-time Apps</span>
+            <span class="tech-pill" id="pill-training">Technical Training</span>
+            <span class="tech-pill" id="pill-lifecycle">Lifecycle Mgmt</span>
+            <span class="tech-pill" id="pill-mvvm">MVVM Pattern</span>
+            <span class="tech-pill" id="pill-media">Media Export</span>
+            <span class="tech-pill" id="pill-ai">AI-Powered Apps</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EDUCATION ====== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-card" id="edu-card">
+        <div class="edu-glow"></div>
+        <div class="edu-left">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-degree-info">
+            <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+            <p class="edu-branch">Computer Science Engineering — Internet of Things (IoT)</p>
+            <div class="edu-meta-row">
+              <span class="edu-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+                Punjab Technical University, Kapurthala
+              </span>
+              <span class="edu-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                June 2025
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-right">
+          <div class="gold-medal-wrap" id="gold-medal">
+            <div class="medal-ring">
+              <div class="medal-inner">
+                <span class="medal-emoji">🥇</span>
+              </div>
+            </div>
+            <div class="medal-label">GOLD MEDALIST</div>
+            <p class="medal-desc">Awarded for Outstanding Academic Performance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" id="contact-info">
+          <h3>Ready to build something amazing?</h3>
+          <p>I'm always open to new opportunities, exciting projects, or collaborations. Let's create something great together!</p>
+          <div class="contact-cards">
+            <a href="mailto:jatinmehmi583@gmail.com" class="contact-card" id="contact-email">
+              <div class="contact-card-icon cc-email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="cc-label">Email</span>
+                <span class="cc-value">jatinmehmi583@gmail.com</span>
+              </div>
+              <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="tel:+917658848135" class="contact-card" id="contact-phone">
+              <div class="contact-card-icon cc-phone">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.5 12a19.79 19.79 0 01-3-8.67A2 2 0 012.48 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.5a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="cc-label">Phone</span>
+                <span class="cc-value">+91 7658848135</span>
+              </div>
+              <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jatin-mehmi-84bbab253/" target="_blank" rel="noopener" class="contact-card" id="contact-linkedin">
+              <div class="contact-card-icon cc-linkedin">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="cc-label">LinkedIn</span>
+                <span class="cc-value">jatin-mehmi-84bbab253</span>
+              </div>
+              <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://github.com/Jatin2102786" target="_blank" rel="noopener" class="contact-card" id="contact-github">
+              <div class="contact-card-icon cc-github">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="cc-label">GitHub</span>
+                <span class="cc-value">Jatin2102786</span>
+              </div>
+              <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap" id="contact-form-wrap">
+          <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="form-name">Your Name</label>
+              <input type="text" id="form-name" name="name" placeholder="John Doe" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Your Email</label>
+              <input type="email" id="form-email" name="email" placeholder="john@example.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="form-subject">Subject</label>
+              <input type="text" id="form-subject" name="subject" placeholder="Let's collaborate!" />
+            </div>
+            <div class="form-group">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="5" placeholder="Tell me about your opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="form-submit">
+              <span class="submit-text">Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+          <div class="form-success" id="form-success">
+            <div class="success-icon">✅</div>
+            <h4>Message Sent!</h4>
+            <p>Thanks for reaching out. I'll get back to you soon!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-bracket">&lt;</span>JM<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-text">
+          Crafted with <span class="heart">❤️</span> by <strong>Jatin Mehmi</strong> &mdash; Mobile Developer &amp; Trainer
+        </p>
+        <div class="footer-links">
+          <a href="https://github.com/Jatin2102786" target="_blank" rel="noopener" id="footer-github" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/jatin-mehmi-84bbab253/" target="_blank" rel="noopener" id="footer-linkedin" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="mailto:jatinmehmi583@gmail.com" id="footer-email" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jatin Mehmi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
